@@ -50,7 +50,7 @@
       <file leaf-file-name="ExampleTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/twu/biblioteca/ExampleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5017422" vertical-offset="96" max-vertical-offset="528">
+            <state vertical-scroll-proportion="0.83623695" vertical-offset="0" max-vertical-offset="528">
               <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -270,8 +270,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="202" />
-    <option name="y" value="22" />
+    <option name="x" value="215" />
+    <option name="y" value="48" />
     <option name="width" value="1280" />
     <option name="height" value="774" />
   </component>
@@ -626,7 +626,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="202" y="22" width="1280" height="774" extended-state="0" />
+    <frame x="215" y="48" width="1280" height="774" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -706,7 +706,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/twu/biblioteca/ExampleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5017422" vertical-offset="96" max-vertical-offset="528">
+        <state vertical-scroll-proportion="0.83623695" vertical-offset="0" max-vertical-offset="528">
           <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
