@@ -8,10 +8,12 @@ public class Book {
     private String name;
     private String author;
     private String publishTime;
-    public Book(String name, String author, String publishTime){
+    private String status;
+    public Book(String name, String author, String publishTime,String status){
         this.name = name;
         this.author = author;
         this.publishTime = publishTime;
+        this.status = status;
     }
 
     public String getName() {
@@ -36,5 +38,13 @@ public class Book {
 
     public void setPublishTime(String publishTime) {
         this.publishTime = publishTime;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 }

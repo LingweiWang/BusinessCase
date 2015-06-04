@@ -59,4 +59,21 @@ public class BookControllerTest {
         userController.quit(user);
         assertThat(bookController.mainMenu(user.getStatus(), "List Books"), is("please sign in"));
     }
+
+    @Test
+    public void testCheckOut() throws Exception {
+        assertThat(bookController.checkOutBookByName("Refactoring"),is("That book is not available"));
+        assertThat(bookController.checkOutBookByName("Clean code"),is("Thank you! Enjoy the book"));
+        assertThat(bookController.checkOutBookByName("Head First Java"),is("That book is not available"));
+
+    }
+
+    @Test
+    public void testReturn() throws Exception {
+
+        assertThat(bookController.returnBookByName("Refactoring"),is("Thank you for returning the book"));
+        assertThat(bookController.returnBookByName("Head First Java"),is("That is not a valid book to return"));
+
+
+    }
 }

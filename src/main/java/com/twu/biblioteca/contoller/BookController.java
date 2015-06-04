@@ -11,8 +11,8 @@ public class BookController {
 
     private static ArrayList<Book> booklist =new ArrayList<Book>();
     static{
-        booklist.add(new Book("Refactoring","Martin Fowler","April,2010"));
-        booklist.add(new Book("Clean code","Robert C. Martin","January,2010"));
+        booklist.add(new Book("Refactoring","Martin Fowler","April,2010","checkout"));
+        booklist.add(new Book("Clean code","Robert C. Martin","January,2010","unchecked"));
     }
 
     public ArrayList<Book> getList() {
@@ -35,6 +35,35 @@ public class BookController {
             return "please sign in";
         }
 
+    }
+
+    public String checkOutBookByName(String name){
+       for(Book book : booklist){
+           if(name.equals(book.getName())){
+               if(book.getStatus().equals("unchecked")){
+                   book.setStatus("checkout");
+                   return "Thank you! Enjoy the book";
+               }else{
+                   return "That book is not available";
+               }
+           }
+       }
+        return "That book is not available";
 
     }
+    public String returnBookByName(String name){
+        for(Book book : booklist){
+            if(name.equals(book.getName())){
+                if(book.getStatus().equals("checkout")){
+                    book.setStatus("unchecked");
+                    return "Thank you for returning the book";
+                }else{
+                    return "That is not a valid book to return";
+                }
+            }
+        }
+        return "That is not a valid book to return";
+    }
+
+
 }
