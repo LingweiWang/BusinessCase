@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.twu.biblioteca.controller.MovieControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2015-06-23T15:28:32" hostname="appletekiMacBook-Pro.local" time="0.002">
+  <properties/>
+  <testcase name="testCheckOutMovie" classname="com.twu.biblioteca.controller.MovieControllerTest" time="0.002"/>
+  <testcase name="testMovieList" classname="com.twu.biblioteca.controller.MovieControllerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

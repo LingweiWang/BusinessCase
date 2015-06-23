@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.twu.biblioteca.controller.BookControllerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2015-06-04T03:31:36" hostname="appletekiMacBook-Pro.local" time="0.039">
+<testsuite name="com.twu.biblioteca.controller.BookControllerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2015-06-23T15:28:32" hostname="appletekiMacBook-Pro.local" time="0.034">
   <properties/>
-  <testcase name="testCheckOut" classname="com.twu.biblioteca.controller.BookControllerTest" time="0.03"/>
-  <testcase name="testBookList" classname="com.twu.biblioteca.controller.BookControllerTest" time="0.001"/>
+  <testcase name="testCheckOut" classname="com.twu.biblioteca.controller.BookControllerTest" time="0.022"/>
+  <testcase name="testBookList" classname="com.twu.biblioteca.controller.BookControllerTest" time="0.0"/>
   <testcase name="testQuit" classname="com.twu.biblioteca.controller.BookControllerTest" time="0.001"/>
-  <testcase name="testMainMenu" classname="com.twu.biblioteca.controller.BookControllerTest" time="0.001"/>
-  <testcase name="testBookDetail" classname="com.twu.biblioteca.controller.BookControllerTest" time="0.0"/>
+  <testcase name="testMainMenu" classname="com.twu.biblioteca.controller.BookControllerTest" time="0.002"/>
+  <testcase name="testBookDetail" classname="com.twu.biblioteca.controller.BookControllerTest" time="0.001"/>
   <testcase name="testWelcomeMessage" classname="com.twu.biblioteca.controller.BookControllerTest" time="0.0"/>
-  <testcase name="testReturn" classname="com.twu.biblioteca.controller.BookControllerTest" time="0.001"/>
+  <testcase name="testReturn" classname="com.twu.biblioteca.controller.BookControllerTest" time="0.006"/>
   <system-out><![CDATA[Refactoring,Martin Fowler,April,2010
 Clean code,Robert C. Martin,January,2010
 Refactoring,Martin Fowler,April,2010

@@ -1,7 +1,5 @@
 package com.twu.biblioteca.controller;
 
-import com.twu.biblioteca.contoller.BookController;
-import com.twu.biblioteca.contoller.UserController;
 import com.twu.biblioteca.model.Book;
 import com.twu.biblioteca.model.User;
 import org.junit.Before;
